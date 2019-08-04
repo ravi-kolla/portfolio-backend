@@ -5,7 +5,6 @@ exports.seed = function(knex, Promise) {
       // Inserts seed entries
       return knex('subscribe').insert([
         {
-        	id:1,
         	email: 'ravitejakolla@outlook.com'
         }
       ]);
