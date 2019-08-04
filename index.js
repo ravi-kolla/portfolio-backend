@@ -15,6 +15,6 @@ app.get('/', function (req, res) {
   res.send('<a href="https://www.ravitejakolla.com">https://www.ravitejakolla.com</a>');
 });
 
-app.listen(5000, function () {
+app.listen(process.env.PORT || 5000, function () {
   console.log('Portfolio backend listening on port 5000!');
 });
