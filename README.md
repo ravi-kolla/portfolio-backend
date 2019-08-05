@@ -1,5 +1,5 @@
 # Email Subscription Backend Component
-Email Subscription Api accepts user email addrees and saves data into postgresql database. 
+Email Subscription Api accepts user email address and saves the data into postgresql database. 
 Incase if user is already enrolled then Api responds with "Email already in use" message.
 Some basic backend validations are also in place and can be extended.
 
